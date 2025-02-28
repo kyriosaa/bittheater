@@ -1,7 +1,7 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 #include "AnimateHelloWorld.h"
-#include "AnimateCheckerStrobe.h"
+#include "AnimateBlocks.h"
 
 // ----------- hardware -----------
 #define LCD_ADDRESS 0x27
@@ -9,17 +9,16 @@
 #define SELECT_BUTTON 4
 // --------------------------------
 
-LiquidCrystal_I2C lcd(LCD_ADDRESS, 16, 2);
-
-int menuState = 1;
-unsigned long lastPressTime = 0;
-const int debounceDelay = 200;
-
 // ------ func declarations -------
 void greetings();
 void printMenu(int menuState);
 void playAnimation(int menuState);
 // --------------------------------
+
+LiquidCrystal_I2C lcd(LCD_ADDRESS, 16, 2);
+int menuState = 1;
+unsigned long lastPressTime = 0;
+const int debounceDelay = 200;
 
 void setup() {
   lcd.init();
@@ -28,7 +27,7 @@ void setup() {
   pinMode(CHANGE_BUTTON, INPUT);
   pinMode(SELECT_BUTTON, INPUT);
 
-  //greetings();
+  greetings();
 }
 
 void loop() {
@@ -92,7 +91,7 @@ void playAnimation(int menuState) {
       break;
     case 2:
       lcd.clear();
-      animateCheckerStrobe();
+      animateBlocks();
       break;
     case 3:
       //animation 3
