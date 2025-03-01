@@ -1,11 +1,7 @@
 #include <Arduino.h>
 #include <LiquidCrystal_I2C.h>
+#include "ASCIISymbols.h"
 #include "AnimateHelloWorld.h"
-
-// ----- ASCII char in memory -----
-#define LESS_THAN_SYMBOL 0x3C
-#define GREATER_THAN_SYMBOL 0x3E
-// --------------------------------
 
 // ------ func declarations -------
 void expandArrows();

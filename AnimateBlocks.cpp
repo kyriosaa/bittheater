@@ -1,11 +1,7 @@
 #include <Arduino.h>
 #include <LiquidCrystal_I2C.h>
+#include "ASCIISymbols.h"
 #include "AnimateBlocks.h"
-
-// ----- ASCII char in memory -----
-#define FILL_SYMBOL 0xFF
-#define EMPTY_SYMBOL 0x20
-// --------------------------------
 
 // ------ func declarations -------
 void curtain();
@@ -18,7 +14,6 @@ void wipe();
 // --------------------------------
 
 extern LiquidCrystal_I2C lcd;
-int strobeState = 0;
 
 void animateBlocks() {
   curtain();
@@ -88,11 +83,13 @@ void teeth() {
       lcd.setCursor(i, 1);
       lcd.write(FILL_SYMBOL);
     }
-    delay(100);
+    delay(150);
   }
 }
 
 void strobe() {
+  int strobeState = 0;
+
   for(int i = 0; i < 10; i++) {
     lcd.clear();
     if(strobeState == 0) {

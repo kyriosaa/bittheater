@@ -2,6 +2,7 @@
 #include <LiquidCrystal_I2C.h>
 #include "AnimateHelloWorld.h"
 #include "AnimateBlocks.h"
+#include "AnimateJpGreeting.h"
 
 // ----------- hardware -----------
 #define LCD_ADDRESS 0x27
@@ -27,7 +28,7 @@ void setup() {
   pinMode(CHANGE_BUTTON, INPUT);
   pinMode(SELECT_BUTTON, INPUT);
 
-  greetings();
+  //greetings();
 }
 
 void loop() {
@@ -94,7 +95,8 @@ void playAnimation(int menuState) {
       animateBlocks();
       break;
     case 3:
-      //animation 3
+      lcd.clear();
+      animateJpGreeting();
       break;
     case 4:
       // animation 4
