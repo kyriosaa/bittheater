@@ -1,8 +1,9 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
+#include "AnimateIntro.h"
 #include "AnimateHelloWorld.h"
-#include "AnimateBlocks.h"
 #include "AnimateJpGreeting.h"
+#include "AnimateBlocks.h"
 
 // ----------- hardware -----------
 #define LCD_ADDRESS 0x27
@@ -88,18 +89,19 @@ void playAnimation(int menuState) {
   switch(menuState) {
     case 1:
       lcd.clear();
-      animateHelloWorld();
+      animateIntro();
       break;
     case 2:
       lcd.clear();
-      animateBlocks();
+      animateHelloWorld();
       break;
     case 3:
       lcd.clear();
       animateJpGreeting();
       break;
     case 4:
-      // animation 4
+      lcd.clear();
+      animateBlocks();
       break;
   }
 }

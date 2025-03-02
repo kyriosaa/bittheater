@@ -121,24 +121,30 @@ void pong() {
   int pongPos = 0;
 
   if(pongPos == 0) {
-      for(int j = 0; j < 16; j++) {
-        lcd.clear();
-        lcd.setCursor(j, 0);
-        lcd.write(FILL_SYMBOL);
-        lcd.setCursor(j, 1);
-        lcd.write(FILL_SYMBOL);
-        delay(150);
-      }
-      pongPos = 1;
-    }
-  if(pongPos == 1) {
-    for(int j = 16; j > 0; j--) {
-      lcd.clear();
+    for(int j = 0; j < 16; j++) {
+      lcd.setCursor(j - 1, 0);
+      lcd.write(EMPTY_SYMBOL);
+      lcd.setCursor(j - 1, 1);
+      lcd.write(EMPTY_SYMBOL);
       lcd.setCursor(j, 0);
       lcd.write(FILL_SYMBOL);
       lcd.setCursor(j, 1);
       lcd.write(FILL_SYMBOL);
-      delay(150);
+      delay(75);
+    }
+    pongPos = 1;
+  }
+  if(pongPos == 1) {
+    for(int j = 16; j > 0; j--) {
+      lcd.setCursor(j, 0);
+      lcd.write(FILL_SYMBOL);
+      lcd.setCursor(j, 1);
+      lcd.write(FILL_SYMBOL);
+      lcd.setCursor(j + 1, 0);
+      lcd.write(EMPTY_SYMBOL);
+      lcd.setCursor(j + 1, 1);
+      lcd.write(EMPTY_SYMBOL);
+      delay(75);
     }
     pongPos = 0;
   }

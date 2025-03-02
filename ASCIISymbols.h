@@ -13,4 +13,10 @@ extern byte konnichiwaSymbols[6];
 // Genki symbols array (オゲンキデスカ?)
 extern byte genkiSymbols[10];
 
+// Ramen symbols array (ワタシハラーメンヲ)
+extern byte ramenSymbols[9];
+
+// Sukidesu symbols array (タベルノガスキデス)
+extern byte sukidesuSymbols[12];
+
 #endif

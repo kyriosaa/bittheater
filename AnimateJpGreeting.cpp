@@ -6,6 +6,9 @@
 // ------ func declarations -------
 void konnichiwa();
 void genki();
+void ramen();
+void sukidesu();
+void exclaimation();
 // --------------------------------
 
 extern LiquidCrystal_I2C lcd;
@@ -13,6 +16,9 @@ extern LiquidCrystal_I2C lcd;
 void animateJpGreeting() {
   konnichiwa();
   genki();
+  ramen();
+  sukidesu();
+  exclaimation();
 }
 
 void konnichiwa() {
@@ -45,4 +51,41 @@ void genki() {
     symbolsCount++;
   }
   delay(800);
+}
+
+void ramen() {
+  int symbolsCount = 0;
+
+  for(int i = 0; i < 9; i++) {
+    lcd.setCursor(i, 0);
+    lcd.write(ramenSymbols[symbolsCount]);
+    lcd.write(EMPTY_SYMBOL);
+    delay(100);
+    symbolsCount++;
+  }
+  delay(100);
+}
+
+void sukidesu() {
+  int symbolsCount = 0;
+
+  for(int i = 0; i < 12; i++) {
+    lcd.setCursor(i, 1);
+    lcd.write(sukidesuSymbols[symbolsCount]);
+    lcd.write(EMPTY_SYMBOL);
+    delay(100);
+    symbolsCount++;
+  }
+  delay(300);
+}
+
+void exclaimation() {
+  for(int i = 15; i >= 0; i--) {
+    lcd.setCursor(i, 0);
+    lcd.print("!");
+    lcd.setCursor(i, 1);
+    lcd.print("!");
+    delay(100);
+  }
+  delay(500);
 }
