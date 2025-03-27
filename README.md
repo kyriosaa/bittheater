@@ -14,7 +14,7 @@ Video link: https://youtu.be/qVx4EneCoxs
 
 - **Custom Animations -** Includes up to 4 custom animations on a 16x2 LCD screen
 - **Tactile Controls -** Uses two tactile push buttons for a satisfying click on every button press
-- **Compact Design -** The device is built on a small perfboard, allowing components to be neatly soldered for a compact, pocket-friendly design.
+- **Compact Design -** The device is built on a small perfboard, allowing components to be neatly soldered for a compact and pocket-sized design.
 
 ![alt text](https://github.com/kyriosaa/bittheater/blob/master/images/bittheater-3.JPG "BitTheater")
 ![alt text](https://github.com/kyriosaa/bittheater/blob/master/images/bittheater-6.JPG "BitTheater")
