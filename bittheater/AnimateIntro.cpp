@@ -15,8 +15,8 @@ void animateIntro() {
 
 void title() {
   String title = "BitTheater";
-  String desc1 = "A Digital";
-  String desc2 = "Pocket Theater";
+  String desc1 = "A Mini Animation";
+  String desc2 = "Showcase";
 
   // BitTheater
   for(int i = 0; i < title.length(); i++) {
