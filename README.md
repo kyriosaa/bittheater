@@ -20,7 +20,8 @@ Video link: https://youtu.be/qVx4EneCoxs
 
 - **Arduino Nano -** Microcontroller
 - **SC162A3 -** 16x2 LCD Display
-- **4-pin Push Button -** Buttons
+- **Push Buttons -** Buttons
+- **220Ω Resistors -** Pull-down resistors for push buttons
 
 ![alt text](https://github.com/kyriosaa/bittheater/blob/master/images/bittheater-4.JPG "BitTheater")
 ![alt text](https://github.com/kyriosaa/bittheater/blob/master/images/bittheater-3.JPG "BitTheater")
