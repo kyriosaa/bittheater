@@ -1,4 +1,5 @@
 <img src='./images/bittheater-1.JPG' width='100%' >
+
 # BitTheater: A Miniature Animation Showcase
 
 Video link: https://youtu.be/qVx4EneCoxs
