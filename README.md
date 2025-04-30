@@ -1,4 +1,4 @@
-![alt text](https://github.com/kyriosaa/bittheater/blob/master/images/bittheater-1.JPG "BitTheater")
+<img src='./images/bittheater-1.JPG' width='100%' >
 # BitTheater: A Miniature Animation Showcase
 
 Video link: https://youtu.be/qVx4EneCoxs
@@ -23,8 +23,8 @@ Video link: https://youtu.be/qVx4EneCoxs
 - **Push Buttons -** Buttons
 - **220Ω Resistors -** Pull-down resistors for push buttons
 
-![alt text](https://github.com/kyriosaa/bittheater/blob/master/images/bittheater-4.JPG "BitTheater")
-![alt text](https://github.com/kyriosaa/bittheater/blob/master/images/bittheater-3.JPG "BitTheater")
-![alt text](https://github.com/kyriosaa/bittheater/blob/master/images/bittheater-6.JPG "BitTheater")
-![alt text](https://github.com/kyriosaa/bittheater/blob/master/images/bittheater-2.JPG "BitTheater")
-![alt text](https://github.com/kyriosaa/bittheater/blob/master/images/bittheater-5.JPG "BitTheater")
+<img src='./images/bittheater-4.JPG' width='100%' >
+<img src='./images/bittheater-3.JPG' width='100%' >
+<img src='./images/bittheater-6.JPG' width='100%' >
+<img src='./images/bittheater-2.JPG' width='100%' >
+<img src='./images/bittheater-5.JPG' width='100%' >
