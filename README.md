@@ -2,7 +2,7 @@
 
 # BitTheater: A Miniature Animation Showcase
 
-Video link: https://youtu.be/qVx4EneCoxs
+🎥 [Watch the demo video](https://youtu.be/qVx4EneCoxs) 🎥
 
 ## About
 
