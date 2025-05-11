@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LCD16x2_I2C")(type "KiCad")(uri "${KIPRJMOD}/LCD16x2_I2C.kicad_sym")(options "")(descr ""))
+)
