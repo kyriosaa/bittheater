@@ -7,8 +7,8 @@
 
 // ----------- hardware -----------
 #define LCD_ADDRESS 0x27
-#define CHANGE_BUTTON 5
-#define SELECT_BUTTON 4
+#define CHANGE_BUTTON 4
+#define SELECT_BUTTON 5
 // --------------------------------
 
 // ------ func declarations -------
@@ -29,7 +29,7 @@ void setup() {
   pinMode(CHANGE_BUTTON, INPUT);
   pinMode(SELECT_BUTTON, INPUT);
 
-  //greetings();
+  greetings();
 }
 
 void loop() {
@@ -48,12 +48,12 @@ void loop() {
 void greetings() {
   lcd.setCursor(0, 0);
   lcd.print("Hello!");
-  delay(2000);
+  delay(1500);
   lcd.setCursor(0, 0);
   lcd.print("Please select");
   lcd.setCursor(0, 1);
   lcd.print("an animation.");
-  delay(2000);
+  delay(1500);
 }
 
 void printMenu(int menuState) {

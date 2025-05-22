@@ -1,13 +1,16 @@
-<img src='./images/bittheater-1.JPG' width='100%' >
+<img src='./images/v1.0/v1-1.jpg' width='100%' >
 
 # BitTheater: A Miniature Animation Showcase
 
-🎥 [Watch the demo video](https://youtu.be/qVx4EneCoxs) 🎥
+🎥 Demo Videos 🎥
+- [Prototype](https://youtu.be/qVx4EneCoxs)
+- [v1.0 PCB](https://youtu.be/kq-y1wTctfI)
 
 ## About
 
 - BitTheater is a compact, tactile device that brings your custom animations to life, displaying up to 4 unique animations in a sleek, pocket-sized design.
 - C++
+- Special thanks to [PCBWay](https://www.pcbway.com/) for the sponsorship and prototyping service. Check them out if you also want an affordable custom PCB for your own project!
 
 
 ## Features
@@ -24,8 +27,7 @@
 - **Push Buttons -** Buttons
 - **220Ω Resistors -** Pull-down resistors for push buttons
 
-<img src='./images/bittheater-4.JPG' width='100%' >
-<img src='./images/bittheater-3.JPG' width='100%' >
-<img src='./images/bittheater-6.JPG' width='100%' >
-<img src='./images/bittheater-2.JPG' width='100%' >
-<img src='./images/bittheater-5.JPG' width='100%' >
+<img src='./images/v1.0/v1-2.jpg' width='100%' >
+<img src='./images/v1.0/v1-3.jpg' width='100%' >
+<img src='./images/v1.0/v1-4.jpg' width='100%' >
+<img src='./images/v1.0/v1-5.jpg' width='100%' >
