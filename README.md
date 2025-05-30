@@ -10,7 +10,7 @@
 
 - BitTheater is a compact, tactile device that brings your custom animations to life, displaying up to 4 unique animations in a sleek, pocket-sized design.
 - C++
-- Special thanks to [PCBWay](https://www.pcbway.com/) for the sponsorship and prototyping service. Check them out if you also want an affordable custom PCB for your own project!
+- Special thanks to [PCBWay](https://www.pcbway.com/) for their sponsorship and high-quality PCB prototyping service! Their PCBs are very high quality with many options to choose from and I got my order shipped to me within 3 days. Check them out if you want a custom PCB for your own project!
 
 
 ## Features
